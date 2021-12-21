@@ -55,6 +55,11 @@ activate:
 #git-scrub:
 #	@git clean -x -f -d
 
+# help: git-push       - push files to Github
+.PHONY: git-push
+git-push:
+	@git push origin main
+
 # help:
 # help: APPLICATION
 # help: run             - launch application 
